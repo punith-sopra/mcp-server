@@ -1,0 +1,25 @@
+.container {
+  width: 70%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.popup-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 600;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+/* Add responsive breakpoints */
+@media (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 95%;
+  }
+}
